@@ -1,5 +1,7 @@
 package com.senai.infob.SurLeFond.models;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,24 +20,28 @@ public class Usuario {
     @Column(name = "nome_completo")
     private String nomeCompleto;
 
-    @Column(name = "telefone")
-    private String telefone;
-
     @Column(name = "email")
     private String email;
           
     @Column(name = "senha")
     private String senha;
 
+    @Column(name = "data_Nascimento")
+    private LocalDate dataNascimento ;
+    
+    @Column(name = "CPF")
+    private String cpf;
+
     public Usuario() {
     }
 
-    public Usuario(Integer id, String nomeCompleto, String telefone, String email, String senha) {
+    public Usuario(Integer id, String nomeCompleto, String email, String senha, LocalDate dataNascimento, String cpf) {
         this.id = id;
         this.nomeCompleto = nomeCompleto;
-        this.telefone = telefone;
         this.email = email;
         this.senha = senha;
+        this.dataNascimento = dataNascimento;
+        this.cpf = cpf;
     }
 
     public Integer getId() {
@@ -54,14 +60,6 @@ public class Usuario {
         this.nomeCompleto = nomeCompleto;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -76,6 +74,22 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     
