@@ -1,0 +1,31 @@
+#Sur Le Fond
+
+O sistema Sur Le Fond foi desenvolvido para oferecer uma plataforma moderna e eficiente voltada à gestão de clientes e organização de dados cadastrais dentro da loja. A proposta do projeto é garantir uma navegação simples, rápida e intuitiva, permitindo que o usuário acesse e atualize suas informações pessoais, endereço e credenciais com segurança.
+A aplicação foi construída utilizando FlutterFlow, integrando chamadas de API via Swagger, possibilitando comunicação direta com o backend para autenticação, cadastro e consulta de dados. O resultado é um sistema funcional, responsivo e preparado para expansão futura.
+
+##Funcionalidades das Telas
+
+→ Página cadastro
+Apresenta um formulário destinado à criação de novos usuários. Nessa etapa, são coletadas informações essenciais — como nome, e-mail e senha — que são enviadas e registradas no sistema para gerar uma nova conta.
+
+→ Página login
+Responsável por permitir que o usuário entre em sua conta com segurança. Após a validação das credenciais, o sistema direciona o usuário automaticamente para a página inicial.
+
+→ Página inicial
+Traz uma apresentação da marca, destacando sua missão, visão e propósito. O layout contém elementos como menu superior, logotipo, texto introdutório, ícones representando seções do app e um botão de acesso rápido que conduz às principais funcionalidades.
+
+→ Página dados do usuário
+Exibe as informações pessoais cadastradas e possibilita que o usuário atualize ou ajuste seus dados diretamente na interface.
+
+→ Página cadastro do endereço
+Disponibiliza um formulário completo para inclusão ou edição do endereço do usuário, apresentando campos de logradouro, localidade, CEP, número, complemento, bairro e referência.
+
+##Tecnologias Utilizadas
+
+FlutterFlow – Ferramenta utilizada para o desenvolvimento visual e construção das interfaces do aplicativo.
+VS Code – Ambiente de desenvolvimento empregado para criação e organização do backend.
+GitHub – Plataforma responsável por armazenar e versionar todo o código do projeto dentro de um repositório.
+Render – Serviço utilizado para realizar o deploy e hospedagem das funcionalidades do backend.
+
+Link da Documentação: https://docs.google.com/document/d/1OdJiGguLyUAii-ZN72C7077Pp7ZG7MnjRdDvw7N1MqQ/edit?usp=sharing
+Link do Swagger: https://atividade-individual-ls6l.onrender.com/aula/swagger-ui/index.html#/
